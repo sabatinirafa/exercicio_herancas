@@ -28,12 +28,12 @@ public class PessoaJuridica extends Pessoa {
 	}
 
 
-	public String getRepresentanteLegal() {
+	public String getNomeRepresentanteLegal() {
 		return nomeRepresentanteLegal;
 	}
 
 
-	public void setRepresentanteLegal(String representanteLegal) {
+	public void setNomeRepresentanteLegal(String representanteLegal) {
 		this.nomeRepresentanteLegal = representanteLegal;
 	}
 
