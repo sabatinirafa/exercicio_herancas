@@ -6,14 +6,14 @@ public class App {
 		// TODO Auto-generated method stub
 		
 
-		PessoaJuridica arcosdourados = new PessoaJuridica();
-		arcosdourados.setNome("McDonalds");
-		arcosdourados.setEndereco("Av Mcdonalds, 120");
-		arcosdourados.setCNPJ("12.345.678/0001-01");
-		arcosdourados.setRepresentanteLegal("José da Silva");
-		arcosdourados.setLucroMensal(20000000d);
-		arcosdourados.setAliquotaDeImposto(.40d);
-		arcosdourados.pagarImposto();
+		PessoaJuridica mcdonalds = new PessoaJuridica();
+		mcdonalds.setNome("McDonalds");
+		mcdonalds.setEndereco("Av Mcdonalds, 120");
+		mcdonalds.setCNPJ("12.345.678/0001-01");
+		mcdonalds.setRepresentanteLegal("José da Silva");
+		mcdonalds.setLucroMensal(20000000d);
+		mcdonalds.setAliquotaDeImposto(.40d);
+		mcdonalds.pagarImposto();
 		
 		
 		PessoaFisica joseDaSilva = new PessoaFisica();
