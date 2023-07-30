@@ -10,7 +10,7 @@ public class App {
 		mcdonalds.setNome("McDonalds");
 		mcdonalds.setEndereco("Av Mcdonalds, 120");
 		mcdonalds.setCNPJ("12.345.678/0001-01");
-		mcdonalds.setRepresentanteLegal("José da Silva");
+		mcdonalds.setNomeRepresentanteLegal("José da Silva");
 		mcdonalds.setLucroMensal(20000000d);
 		mcdonalds.setAliquotaDeImposto(.40d);
 		mcdonalds.pagarImposto();
